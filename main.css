@@ -17,6 +17,44 @@ h1, h2, h3 {
 h1 {
     margin: 0;
     padding: 0;
+
+}
+#page-title {
+    font-weight: bold;
+}
+
+span.pagenum {
+    position: absolute;
+    right: 1%;
+    font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+pre {
+   width: fit-content;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+pre > a {
+   color: black;
+}
+
+
+
+.td1 + .td2, a {
+    text-decoration: none;
+}
+
+.td1 + .td2:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 h2 {
